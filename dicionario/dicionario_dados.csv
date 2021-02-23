@@ -1,0 +1,21 @@
+;Coluna;Descrição;Tipo de dado;Valores permitidos
+0;state;Estado dos EUA no qual o cliente reside;object;string
+1;account_length;Número de dias que a conta está ativa;int64;números inteiros
+2;area_code;Código da área correspondente à localização do cliente;object;string
+3;international_plan;Se o cliente possui ou não plano internacional;object;string
+4;voice_mail_plan;Se o cliente possui ou não plano de voz;object;string
+5;number_vmail_messages;Número de menssagens de voz realizadas;int64;números inteiros
+6;total_day_minutes;Total de minutos falados durante o dia;float64;números decimais
+7;total_day_calls;Total de chamadas realizadas durante o dia;int64;números inteiros
+8;total_day_charge;Total pago por chamadas realizadas durante o dia;float64;números decimais
+9;total_eve_minutes;Total de minutos falados no início da noite;float64;números decimais
+10;total_eve_calls;Total de chamadas realizadas no início da noite;int64;números inteiros
+11;total_eve_charge;Total pago por ligações realizadas no início da noite;float64;números decimais
+12;total_night_minutes;Total de minutos falados no fim da noite;float64;números decimais
+13;total_night_calls;Total de chamadas realizadas no fim da noite;int64;números inteiros
+14;total_night_charge;Total pago por ligações realizadas no fim da noite;float64;números decimais
+15;total_intl_minutes;Total de minutos falados em chamadas internacionais;float64;números decimais
+16;total_intl_calls;Total de chamadas internacionais realizadas;int64;números inteiros
+17;total_intl_charge;Total cobrado por chamadas internacionais;float64;números decimais
+18;number_customer_service_calls;Número de chamadas feitas para o atendimento ao cliente;int64;números inteiros
+19;churn;Se o cliente cancelou ou não o serviço;object;string
